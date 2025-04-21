@@ -22,17 +22,17 @@ export const metadata = {
     "Bathroom waterproofing Nepal", "Home repair Biratnagar",
     "Panchadevi Waterproofing Sewa", "पञ्चदेवी कन्स्ट्रक्सन"
   ],
-  authors: [{ name: "Panchadevi Waterproofing Sewa", url: "/" }],
+  authors: [{ name: "Panchadevi Waterproofing Sewa", url: "https://yourdomain.com" }],
   openGraph: {
-    title: "छाना चुहावट मर्मत सेवा बिराटनगर | Panchadevi Waterproofing Sewa",
+    title: "छाना चुहावट मर्मत सेवा बिराटनगर | Panchadevi Construction",
     description: "बिराटनगरको विश्वासिलो छाना मर्मत सेवा। अहिले सम्पर्क गर्नुहोस्!",
     url: "/",
-    siteName: "Panchadevi Waterproofing Sewa",
+    siteName: "Panchadevi Construction",
     locale: "ne_NP",
     type: "website",
     images: [
       {
-        url: "/banner.jpg", // ✅ Must be absolute URL!
+        url: "/banner.jpg", 
         width: 1200,
         height: 630,
         alt: "Panchadevi Construction - छाना चुहावट मर्मत सेवा बिराटनगर",
@@ -44,7 +44,7 @@ export const metadata = {
     title: "Panchadevi Waterproofing Sewa - छाना चुहावट विशेषज्ञ",
     description: "नेपालको प्रमुख वाटरप्रूफिङ्ग र छाना मर्मत सेवा।",
   },
-  metadataBase: new URL("/"),
+  metadataBase: new URL("https://yourdomain.com"),
   alternates: {
     canonical: "/",
   },
