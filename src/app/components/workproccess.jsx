@@ -33,7 +33,7 @@ export default function WorkProcessSection() {
   ]
 
   return (
-    <section className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+    <section className="py-16 bg-white text-black px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
         <div>
           <p className="text-blue-500 font-medium text-sm">work process</p>

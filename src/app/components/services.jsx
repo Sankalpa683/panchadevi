@@ -44,7 +44,7 @@ export default function CleaningServicesSection() {
   ]
 
   return (
-    <section className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+    <section className="py-16 bg-white text-black px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
       <div className="text-center mb-16">
         <p className="text-blue-500 font-medium uppercase tracking-wide text-sm">OUR SERVICE</p>
         <div className="flex justify-center">
