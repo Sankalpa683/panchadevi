@@ -161,7 +161,7 @@ export default function Navbar() {
               onClick={closeMenu}
             >
               <Phone size={18} className="mr-2" />
-              (123) 456-7890
+              +977 9704607031
             </Link>
             <Link
               href="#book"
