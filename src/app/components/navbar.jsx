@@ -33,7 +33,7 @@ export default function Navbar() {
 
   return (
     <header
-      className={`sticky top-0 bg-white text-black w-full z-50 transition-all duration-300 ${isScrolled ? "bg-white shadow-md py-3" : "bg-white text-black"
+      className={`sticky top-0 bg-white text-black w-full z-50 transition-all duration-300 ${isScrolled ? "bg-white shadow-md py-3" : "bg-white py-4"
         }`}
     >
       <div className="max-w-7xl bg-white text-black mx-auto px-4 sm:px-6 lg:px-8">
