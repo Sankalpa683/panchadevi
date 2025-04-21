@@ -22,21 +22,29 @@ export const metadata = {
     "Bathroom waterproofing Nepal", "Home repair Biratnagar",
     "Panchadevi Waterproofing Sewa", "पञ्चदेवी कन्स्ट्रक्सन"
   ],
-  authors: [{ name: "Panchadevi Waterproofing Sewa", url: "https://yourdomain.com" }],
+  authors: [{ name: "Panchadevi Waterproofing Sewa", url: "/" }],
   openGraph: {
     title: "छाना चुहावट मर्मत सेवा बिराटनगर | Panchadevi Waterproofing Sewa",
     description: "बिराटनगरको विश्वासिलो छाना मर्मत सेवा। अहिले सम्पर्क गर्नुहोस्!",
-    url: "https://yourdomain.com",
+    url: "/",
     siteName: "Panchadevi Waterproofing Sewa",
     locale: "ne_NP",
     type: "website",
+    images: [
+      {
+        url: "/banner.jpg", // ✅ Must be absolute URL!
+        width: 1200,
+        height: 630,
+        alt: "Panchadevi Construction - छाना चुहावट मर्मत सेवा बिराटनगर",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Panchadevi Waterproofing Sewa - छाना चुहावट विशेषज्ञ",
     description: "नेपालको प्रमुख वाटरप्रूफिङ्ग र छाना मर्मत सेवा।",
   },
-  metadataBase: new URL("https://yourdomain.com"),
+  metadataBase: new URL("/"),
   alternates: {
     canonical: "/",
   },
